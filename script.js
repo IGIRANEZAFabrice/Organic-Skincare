@@ -1,3 +1,15 @@
+const but = document.querySelector(".humburger");
+const nav = document.querySelector(".nav");
+
+but.addEventListener("click", () => {
+  if (nav.classList != "nav active") {
+    nav.classList.add("active");
+    but.innerHTML = "&#10006;";
+  } else {
+    nav.classList.remove("active");
+    but.innerHTML = "&#9776;";
+  }
+});
 
 const slider = document.querySelector(".slider");
 const cards = document.querySelectorAll(".card");
