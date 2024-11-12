@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS Skin Serum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">OS</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#Reviews">Customer Reviews</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contactUs">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fab fa-opencart"></i>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section id="hero" class="hero">
+        <div class="content">
+            <h1>Glow Beyond Limits with OS Skin Serum</h1>
+            <p>Our meticulously crafted products are designed to rejuvenate, hydrate, and transform your skin, revealing a luminous glow that captivates.</p>
+            <div class="buttons">
+                <a href="#products"><button class="shop-now">Shop Now</button></a>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="img/1.jpeg" alt="OS Skin Serum Model">
+            <div class="product-info">
+                <p>Beautify & Co. - $392</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skincare Overview Section -->
+    <section id="overview" class="skincare-overview">
+        <div class="image-container">
+            <img src="img/2.jpg" alt="OS Skincare">
+            <div class="small-image"><img src="img/3.jpeg" alt="Dropper"></div>
+        </div>
+        <div class="text-content">
+            <h2>Glowing skin is a result of proper skincare</h2>
+            <p>At OS, we believe that beauty goes beyond skin deep. Our journey began with a passion for skincare rooted in the principles of purity, science, and sustainability. We exceed industry standards to ensure our products deliver exceptional results without compromising on safety.</p>
+            <button class="shop-now">Shop OS Skincare Now</button>
+            <p class="promo-text">Get 15% off on your first purchase!</p>
+        </div>
+    </section>
+    <section id="Reviews" class="Reviews">
+        <div class="review-section">
+            <h2>Our Trusted Partners</h2>
+            <div class="slider-container">
+                <div class="slider">
+                <div class="card">
+                    <img src="img/p1.jpg" alt="Partner Logo">
+                    <h3>JetBrains</h3>
+                    <p>JetBrains partners with Ikigugu Group Ltd to provide powerful development tools...</p>
+                    <button>VISIT</button>
+                </div>
+                <div class="card">
+                    <img src="img/p2.jpg" alt="Partner Logo">
+                    <h3>Another Partner</h3>
+                    <p>This partner collaborates with us on various tech solutions...</p>
+                    <button>VISIT</button>
+                </div>
+                <div class="card">
+                    <img src="img/p3.jpg" alt="Partner Logo">
+                    <h3>Another Partner</h3>
+                    <p>This partner collaborates with us on various tech solutions...</p>
+                    <button>VISIT</button>
+                </div>
+                <!-- Add more cards as needed -->
+                </div>
+                
+            </div>
+            <div class="dots-container">
+                <!-- Dynamically added dots will go here -->
+                </div>
+            </div>
+    </section>
+    <section class="product-filter" id="products">
+        <button class="filter-btn" data-category="all">All Products</button>
+        <button class="filter-btn" data-category="serum">Serum</button>
+        <button class="filter-btn" data-category="cleanser">Cleanser</button>
+        <button class="filter-btn" data-category="moisturizer">Moisturizer</button>
+    </section>
+
+<section class="products" >
+    <div class="product-card" data-category="serum">
+        <div class="product-image">
+            <img src="img/2.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h3 class="product-name">OS Skin Serum</h3>
+            <div class="product-reviews">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="review-count">(128 reviews)</span>
+            </div>
+            <p class="product-price">$392.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <div class="product-card" data-category="cleanser">
+        <div class="product-image">
+            <img src="img/1.jpeg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h3 class="product-name">OS Skin Cleanser</h3>
+            <div class="product-reviews">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="review-count">(128 reviews)</span>
+            </div>
+            <p class="product-price">$250.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <div class="product-card" data-category="moisturizer">
+        <div class="product-image">
+            <img src="img/3.jpeg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h3 class="product-name">OS Moisturizer</h3>
+            <div class="product-reviews">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">☆</span>
+                <span class="review-count">(128 reviews)</span>
+            </div>
+            <p class="product-price">$350.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+    <section class="contactUs" id="contactUs">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us by filling out the form below.</p>
+            
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <h2>organic  skincare</h2>
+            <p>Your trusted partner for exceptional products and services.</p>
+        </div>
+        
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        
+        <div class="footer-social">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 organic  skincare. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
